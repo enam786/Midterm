@@ -10,9 +10,8 @@ public class Pattern {
 		 *
 		 */
 
-		int n = 100, i, j, num = 1, gap;
+		int n = 100, i, j, num = 1 ;
 
-		gap = n - 1;
 
 		for ( j = 1 ; j <= n ; j++ )
 		{
@@ -23,5 +22,5 @@ public class Pattern {
 			System.out.println();
 		}
 	}
-	 }
+	   }
 
