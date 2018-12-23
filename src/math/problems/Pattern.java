@@ -1,5 +1,6 @@
 package math.problems;
 
+
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -8,8 +9,19 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
 
+		int n = 100, i, j, num = 1, gap;
 
+		gap = n - 1;
+
+		for ( j = 1 ; j <= n ; j++ )
+		{
+			num = j;
+
+			System.out.print(num);
+
+			System.out.println();
+		}
 	}
-}
+	 }
+
