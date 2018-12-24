@@ -78,13 +78,26 @@ What is method overloading and when it happens?
 A.Method overload happen in same class, happen compile time
 
 Explain exceptions in java and how to handle it.
+A.an unwanted or unexpected event, which occurs during the execution of a
+program i.e at run time, that disrupts the normal flow of the program’s instructions.
+
 What is static keyword in java? How it has been used in variables and methods ?
-When a member is declared static, it can be accessed before any objects of
+A.When a member is declared static, it can be accessed before any objects of
 its class are created, and without creating any object.
 
 What is final and how it has been used variables and methods?
+A.final variables are nothing but constants,we can not change value.A
+ final method cannot be overridden.
+
 What is final, finally and finalize?
+A.Final class can't be inherited, final
+method can't be overridden and final variable value can't be changed
+
 What is a constructor ?
+A.A constructor is an instance method that usually has the same
+name as the class, and can be used to set the values of the
+members of an object, either to default or to user-defined values.
+
 Can we have multiple constructors in a class?
 A.YES
 
@@ -106,6 +119,8 @@ What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
 What is Serialization and Deserialization?
 when to use transient variable in java?
+A.
+
 Difference between while and do..while loop?
 What is Enum?
 What is Iterator?
