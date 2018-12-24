@@ -1,35 +1,96 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.Programming Language is a formal language which comprises a set of
+instructions used to produce various kinds of output. Programming languages are used
+in computer programming to create programs that implement specific algorithms.
+
 What jdk contains or composed of and define each components?
-A.
+A.Component of JDK: 1.Java Compiler 2. Java Interpreter 3. Java Disassembler
+ 4. Java Header File Generator 5. Java Documentation 6. Java Debugger
+ 7. Java Applet Viewer
+
 What is IDE?
-Integrated Development Environment
-A.
+A.Integrated Development Environment
+
 What are the IDEs available in the market to support java?
+A.Eclipse,NetBeans,intellij, Android studio, BlueJ, Jedit,Jgrasp,DrJava
+
 Explain the entire java life cycle.
+A.
+step 1 : A Java program is written using either a Text Editor like
+Textpad or an IDE like Eclipse and is saved as a .java file. (Program.java)
+
+step 2: The .java file is then compiled using Java
+compiler and a .class file is obtained from it. (Program.class)
+
+step 3: The .class file is now portable and can
+be used to run this Java program in any platform.
+
+step 4 :Class file (Program.class) is interpreted by
+the JVM installed on a particular platform. JVM is part of the JRE software.
+
 what is class?
+A.A class is a blueprint or a set of instruction to build a specific type of object.
+
 What is object?
+A.An object is  a self-contained component which consists of methods
+ and properties to make a particular type of data useful
+
 What is the entry point of an application?
+A.Java main method
+
 Why main is static?
+A.JVM need main method to execute
+
 Which class is the superclass of all classes?
+A. java.lang.Object is a super class of any class by default
+
 What is difference between path and classpath variables?
+A.classpath variables use by java compiler and path varable use by operating system to find the executable
+
 What is the difference between an Interface and Abstract class?
+A.interface can not have implementation and abstract class can  have instance method that implements behavior
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.we can not make object from interface but we use  "implement" keyword to use their abstract method
+we use "extends" for abstract class
+
 what is Access Specifier?
+A.access modifiers in Java helps to restrict the scope of
+a class, constructor , variable , method or data member
+
 What is OOP ? Define each feature of java OOP.
+A.Object Oriented Programming, 	Inheritance, Polymorphism, Encapsulation,abstraction
+
 What is Java Package and which package is imported by default?
+A. A Package can be defined as a grouping of related
+types (classes, interfaces, enumerations and annotations )
+
 What is API? Name list of API that you have used so far.
+A.Application programming interface, java.lang and java.io etc
+
 Does java support multiple inheritance, explain why or why not?
+A.NO,  exist methods with same signature in both the super classes and subclass.
+On calling the method, the compiler cannot determine which to call
+
 What is method overloading and when it happens?
+A.Method overload happen in same class, happen compile time
+
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
+When a member is declared static, it can be accessed before any objects of
+its class are created, and without creating any object.
+
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
 Can we have multiple constructors in a class?
+A.YES
+
 If we don't have a constructor declared, what is called during the object creation?
+A.default constructor
+
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
 What is JVM stand for ?
