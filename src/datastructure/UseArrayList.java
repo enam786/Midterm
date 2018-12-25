@@ -17,6 +17,7 @@ public class UseArrayList {
 		arrlist.add(7);
 		arrlist.add(39);
 		arrlist.add(40);
+
 		// remove element from arraylist
 		arrlist.remove(14);
 		// remove element from arraylist
@@ -29,6 +30,9 @@ public class UseArrayList {
 		for (int counter = 0; counter < arrlist.size(); counter++) {
 			System.out.println(arrlist.get(counter));
 		}
+
+		//forEach loop
+		arrlist.forEach((n) -> display(n));
 
 		/* Advanced For Loop*/
 		System.out.println("Advanced For Loop");
@@ -44,6 +48,12 @@ public class UseArrayList {
 			count++;
 		}
 
+	}
+
+	// printing values for forEach loop
+	public static void display(Integer n)
+	{
+		System.out.println("Iterating Values are " + n);
 	}
 
 }
