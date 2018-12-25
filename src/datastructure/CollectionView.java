@@ -18,21 +18,29 @@ public class CollectionView {
                 map.put(5, "San Jose");
                 map.put(6, "Seattle");
 
-                String str1 = map.get("1");  // No need downcast
+                //get method to test
+                String str1 = map.get("1");
                 System.out.println(str1);
+
                 String str2 = map.get("2");
                 System.out.println(str2);
+
                 String str3 = map.get("3");
                 System.out.println(str3);
 
-                //Set<String> keys = map.keySet();
-               // for (String str : keys) {
-                 //       System.out.print(str);
-                  //      System.out.print(":");
-                   //     System.out.println(map.get(str));
+                //loop using HashMap method entrySet fires
+                for (Map.Entry en : map.entrySet())
+                {
+                       //printing elements
+                        System.out.print(en);
+                        System.out.print(":");
+                        System.out.println(map.get(en));
 
+                        //we can print this way too
+                        System.out.println(en.getKey() + " and " + en.getValue());
 
                 }
 
         }
+}
 
