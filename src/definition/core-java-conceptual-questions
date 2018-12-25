@@ -159,26 +159,74 @@ when to use transient variable in java?
 A.A transient variable is a variable that can not be serialized.
 
 Difference between while and do..while loop?
-A.
+A.while loops, test expression is checked at first but,
+in do...while loop code is executed at first then the condition is checked.
+
 What is Enum?
+A.Predefined Constant Variable
+
 What is Iterator?
+A.It is a interface used to get elements of legacy collections(Vector, Hashtable).
+
 Which one will take more memory, an int or Integer?
+A.Integer
+
 Why is String Immutable in Java?
+A.String is immutable in Java. An immutable class is simply a class whose instances cannot be modified.
+
 What is constructor chaining in Java?
+A.Constructor chaining is the process of calling one constructor
+from another constructor with respect to current object
+
 The difference between Serial and Parallel Garbage Collector?
+A.serial and parallel collectors cause a stop-the-world during the GC.
+a serial collector is a default copying collector which
+uses only one GC thread for the GC operation, while a parallel
+collector uses multiple GC threads for the GC operation
+
 What is JIT stands for?
+A.Just In Time
+
 Explain Java Heap space and Garbage collection?
+A.objects are created inside heap memory and Garbage Collection is a process
+which removes dead objects from Java Heap space and returns memory back to Heap in Java.
+
 Can you guarantee the garbage collection process?
+A.NO
+
 What is the difference between stack and heap in Java?
+A.Heap memory is used by all the parts of the application whereas stack
+memory is used only by one thread of execution.
+
 What is reflection in java and why is it useful?
+A.Reflection in Java is the ability to examine and/or modify
+the properties or behavior of an object at run-time.
+
 what is multithreading in java?
+A.Multithreading in java is a process of executing multiple threads simultaneously.
+
 What is the use of synchronization in Java?
+A.Synchronization in java is the capability to control the access of multiple threads to any shared resource.
+
 What is Framework?
+A.framework is a foundation with a specified level of complexity
+(based on user level) that a programmer may extend using their own code.
+
 What are the testing Framework available in java?
+A.Junit, selenium, cucumber, RESTassured, TestNg, Mockito
+
 Difference between jUnit and testNG?
+A.Both Testng and Junit are Testing framework used for Unit Testing. Only Junit doesn't have dependency test
+
 What are the dependencies for this project?
+A.No dependency
+
 what is dependency injection in java?
+A.dependency injection is a technique whereby one object (or static method) supplies
+the dependencies of another object. A dependency is an object that can be used (a service)
+
 What is static binding and dynamic binding?
+static binding is method overloading, dynamic binding is method overriding.
 
 
 
