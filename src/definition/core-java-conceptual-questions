@@ -105,23 +105,61 @@ If we don't have a constructor declared, what is called during the object creati
 A.default constructor
 
 What is "this" keyword in java ?
+A. Keyword THIS is a reference variable in Java that refers to the current object
+
 What is "super" keyword in java? How many possible way can you use?
+A.The super keyword in java is a reference variable that is used to refer parent class objects.
+
 What is JVM stand for ?
+A.Java Virtual Machine
+
 Is JVM platform independent?
+A.NO
+
 What version of java are you using?
+A. java version 1.8.0_191
+
 What is JAR stand for ?
+A.Java Archive
+
 What is the difference between JDK and JVM?
+A.VM is Java Virtual Machine, the JVM actually runs Java bytecode.
+JDK is Java Developer Kit, the JDK is what you need to compile Java source code
+
 What is the difference between JVM and JRE?
+A.JRE is an acronym for Java Runtime Environment.It is used to provide
+runtime environment.JVM contains set of libraries
+
 What is compile time and run time?
+A. Compile-time is the instance where the code you entered is converted
+to executable while Run-time is the instance where the executable is running.
+
 What is heap?
+A.It is a more free-floating region of memory (and is larger) that manage automatically
+
 How java manage it's memory?
+A.the JVM and more specifically the Garbage Collector – has the duty of
+ handling memory allocation so that the developer doesn’t have to.
+
 What is the difference between String, StringBuffer and StringBuilder?
+A.String is immutable ( once created can not be changed )object.
+StringBuffer is mutable means one can change the value of the object.
+StringBuilder is same as the StringBuffer , that is
+it stores the object in heap and it can also be modified
+
 What is Singleton class?
+A.Make constructor as private.
+
 What is Serialization and Deserialization?
+A.Serialization is a mechanism of converting the state of an object into a byte stream.
+ Deserialization is the reverse process where the byte
+  stream is used to recreate the actual Java object in memory.
+
 when to use transient variable in java?
-A.
+A.A transient variable is a variable that can not be serialized.
 
 Difference between while and do..while loop?
+A.
 What is Enum?
 What is Iterator?
 Which one will take more memory, an int or Integer?
