@@ -28,8 +28,26 @@ public class PrimeNumber {
 			}
 		}
 		System.out.println("Prime numbers from 1 to " + maxCheck + " are:");
+
+		/*for (Integer in : list)
+			System.out.println(in);*/
+		//List<String> lowestValue = new ArrayList<String>();
+		//ConnectDB connectDB = new ConnectDB();
+
+
+		try {
+			//connectDB.insertDataFromArrayListToMySql(list, "mathTable", "number");
+			//lowestValue = connectDB.readDataBase("mathTable", "number");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		//System.out.println("Data is reading from the Table (mathTable) and displaying to the console");
+		//for (String st : lowestValue) {
+		//System.out.println(st);
 		// Print prime numbers from 1 to maxCheck
 		System.out.println(primeNumbersFound);
+
+
 	}
 	public static boolean CheckPrime(int numberToCheck) {
 		int remainder;

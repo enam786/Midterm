@@ -26,7 +26,7 @@ public class FindLowestDifference {
 
     static int findSmallestDifference(int A[], int B[], int m, int n)
         {
-            
+
             // using sort function
             Arrays.sort(A);
             Arrays.sort(B);
