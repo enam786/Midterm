@@ -11,14 +11,22 @@ public class FindLowestDifference {
         */
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19};
+
+        // Calculate size of Both arrays
+        int m = array1.length;
+        int n = array2.length;
+
+        // Call function to
+        // print smallest result
+        System.out.println(findSmallestDifference
+                (array1, array2, m, n));
+
     }
 
 
-
-        static int findSmallestDifference(int A[], int B[],
-        int m, int n)
+    static int findSmallestDifference(int A[], int B[], int m, int n)
         {
-            // Sort both arrays
+            
             // using sort function
             Arrays.sort(A);
             Arrays.sort(B);
